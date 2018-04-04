@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCC-uL-4Zn">
-                                <rect key="frame" x="114" y="139" width="186" height="58"/>
+                                <rect key="frame" x="114" y="100" width="186" height="58"/>
                                 <color key="backgroundColor" red="0.99215686270000003" green="0.90980392160000001" blue="0.019607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="58" id="CxN-WX-reO"/>
@@ -34,7 +34,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGV-vT-IlA">
-                                <rect key="frame" x="114" y="231" width="186" height="58"/>
+                                <rect key="frame" x="114" y="192" width="186" height="58"/>
                                 <color key="backgroundColor" red="0.99215686270000003" green="0.90980392160000001" blue="0.019607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="186" id="1h6-hl-eNg"/>
@@ -45,14 +45,28 @@
                                     <action selector="onClickByTransformButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kXO-YS-pXa"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r9k-1i-5IO">
+                                <rect key="frame" x="114" y="284" width="186" height="58"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.90980392160000001" blue="0.019607843140000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="186" id="469-Il-fDU"/>
+                                    <constraint firstAttribute="height" constant="58" id="GVh-1a-Flc"/>
+                                </constraints>
+                                <state key="normal" title="Percentage 方式"/>
+                                <connections>
+                                    <action selector="onClickByPercentageButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zpj-Dn-u7o"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="LGV-vT-IlA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DN7-Vo-a39"/>
+                            <constraint firstItem="r9k-1i-5IO" firstAttribute="top" secondItem="LGV-vT-IlA" secondAttribute="bottom" constant="34" id="HC9-oB-zd0"/>
                             <constraint firstItem="LGV-vT-IlA" firstAttribute="top" secondItem="MCC-uL-4Zn" secondAttribute="bottom" constant="34" id="LHK-I6-avO"/>
                             <constraint firstItem="LGV-vT-IlA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="USn-0l-Qrt"/>
-                            <constraint firstItem="MCC-uL-4Zn" firstAttribute="top" secondItem="MmE-dp-IZT" secondAttribute="bottom" constant="119" id="hXS-LG-5E6"/>
+                            <constraint firstItem="MCC-uL-4Zn" firstAttribute="top" secondItem="MmE-dp-IZT" secondAttribute="bottom" constant="80" id="hXS-LG-5E6"/>
                             <constraint firstItem="MCC-uL-4Zn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p3o-ZV-Y7C"/>
+                            <constraint firstItem="r9k-1i-5IO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yJh-IB-jl8"/>
                         </constraints>
                     </view>
                 </viewController>

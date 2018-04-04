@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "AutoresizingVC.h"
 #import "TransformVC.h"
+#import "PercentageVC.h"
 
 
 @interface ViewController ()
@@ -35,6 +36,11 @@
 
 -(IBAction)onClickByAutoresizingButton:(id)sender{
     AutoresizingVC *vc = [[AutoresizingVC alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
+-(IBAction)onClickByPercentageButton:(id)sender{
+    PercentageVC *vc = [[PercentageVC alloc] init];
     [self presentViewController:vc animated:YES completion:nil];
 }
 

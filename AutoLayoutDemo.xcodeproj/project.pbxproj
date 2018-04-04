@@ -16,6 +16,8 @@
 		2B0D66B120721A23004D331F /* TransformVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B0D66B020721A23004D331F /* TransformVC.m */; };
 		2B7F3422207374DD009E66F3 /* AutoresizingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7F3420207374DD009E66F3 /* AutoresizingVC.m */; };
 		2B7F3423207374DD009E66F3 /* AutoresizingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B7F3421207374DD009E66F3 /* AutoresizingVC.xib */; };
+		2BBE762D20737CED0092E94D /* PercentageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BBE762B20737CED0092E94D /* PercentageVC.m */; };
+		2BBE762E20737CED0092E94D /* PercentageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BBE762C20737CED0092E94D /* PercentageVC.xib */; };
 		2BF4872F2073206600A22ECF /* TransformVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF4872E2073206600A22ECF /* TransformVC.xib */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,9 @@
 		2B7F341F207374DD009E66F3 /* AutoresizingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoresizingVC.h; sourceTree = "<group>"; };
 		2B7F3420207374DD009E66F3 /* AutoresizingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoresizingVC.m; sourceTree = "<group>"; };
 		2B7F3421207374DD009E66F3 /* AutoresizingVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoresizingVC.xib; sourceTree = "<group>"; };
+		2BBE762A20737CED0092E94D /* PercentageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PercentageVC.h; sourceTree = "<group>"; };
+		2BBE762B20737CED0092E94D /* PercentageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PercentageVC.m; sourceTree = "<group>"; };
+		2BBE762C20737CED0092E94D /* PercentageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PercentageVC.xib; sourceTree = "<group>"; };
 		2BF4872E2073206600A22ECF /* TransformVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransformVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +88,9 @@
 				2B7F341F207374DD009E66F3 /* AutoresizingVC.h */,
 				2B7F3420207374DD009E66F3 /* AutoresizingVC.m */,
 				2B7F3421207374DD009E66F3 /* AutoresizingVC.xib */,
+				2BBE762A20737CED0092E94D /* PercentageVC.h */,
+				2BBE762B20737CED0092E94D /* PercentageVC.m */,
+				2BBE762C20737CED0092E94D /* PercentageVC.xib */,
 			);
 			path = AutoLayoutDemo;
 			sourceTree = "<group>";
@@ -149,6 +157,7 @@
 				2B7F3423207374DD009E66F3 /* AutoresizingVC.xib in Resources */,
 				2B05316A206B908A0023AD90 /* LaunchScreen.storyboard in Resources */,
 				2B053167206B908A0023AD90 /* Assets.xcassets in Resources */,
+				2BBE762E20737CED0092E94D /* PercentageVC.xib in Resources */,
 				2B053165206B908A0023AD90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +171,7 @@
 			files = (
 				2B7F3422207374DD009E66F3 /* AutoresizingVC.m in Sources */,
 				2B0D66B120721A23004D331F /* TransformVC.m in Sources */,
+				2BBE762D20737CED0092E94D /* PercentageVC.m in Sources */,
 				2B053162206B908A0023AD90 /* ViewController.m in Sources */,
 				2B05316D206B908A0023AD90 /* main.m in Sources */,
 				2B05315F206B908A0023AD90 /* AppDelegate.m in Sources */,
